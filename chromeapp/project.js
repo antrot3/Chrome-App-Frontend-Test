@@ -94,6 +94,7 @@ function append() {
             }
             document.getElementById("pokazalonaiduci").style.display = "block";
         }
+        document.getElementById("poruka").value="";
     }
     return check();
 }
