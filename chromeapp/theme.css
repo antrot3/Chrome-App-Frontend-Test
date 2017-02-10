@@ -1,0 +1,226 @@
+body {
+    background-image: url("images/background-profile.jpg");
+
+}
+
+.main-div {
+    width: 250px;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: -1px 1px 20px 1px #888888;
+}
+
+.mainh1 {
+    width: 100%;
+    margin-left: 25%;
+    margin-right: 24%;
+    font-family: "Bodoni MT Black";
+    font-weight: lighter;
+    font-size: 42px;
+}
+
+input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-style: double;
+    border: 3px double #DDDDDD;
+}
+
+.loginp {
+    width: 100%;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: initial;
+    padding-bottom: 10px;
+}
+
+.loginbtn {
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    color: #fff;
+    background-color: #94e188;
+    background: -webkit-linear-gradient(#94e188, #86ae5e);
+    background: -o-linear-gradient(#94e188, #86ae5e);
+    background: -moz-linear-gradient(#94e188, #86ae5e);
+    background: linear-gradient(#94e188, #86ae5e);
+}
+
+<!--Profile-- >
+.main-profile-div {
+    width: 768px;
+    height: 1600px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 25%;
+    background-color: white;
+
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: -1px 1px 20px 1px #888888;
+}
+
+.placholder-photo {
+    width: 100%;
+    height: 250px;
+    background-image: url("images/Placeholder.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid transparent;
+    margin-top: -1px;
+    margin-left: -1px;
+    padding-right: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.edit-icon {
+    margin-left: 90%;
+    margin-top: 5%;
+    width:30px;
+}
+
+.profile-photo {
+    width: 20%;
+    height: 150px;
+    background-image: url("images/Profile.png");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 10%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.edit-icon2 {
+    margin-left: 70%;
+    margin-top: 5%;
+    width:30px;
+}
+
+.profileh1 {
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.profilep {
+    margin-top: -30px;
+    width: 100%;
+    font-size: 21px;
+}
+
+.newpost {
+    width: 68%;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-left: 14%;
+    text-align: left;
+    direction: rtl;
+    border-style: double;
+    border: 3px double #DDDDDD;
+    resize: none;
+}
+
+.submitbtn {
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    width: 20%;
+    height: 50px;
+    padding: 10px;
+    margin-left: 14%;
+    color: #fff;
+    background-color: #94e188;
+    background: -webkit-linear-gradient(#94e188, #86ae5e);
+    background: -o-linear-gradient(#94e188, #86ae5e);
+    background: -moz-linear-gradient(#94e188, #86ae5e);
+    background: linear-gradient(#94e188, #86ae5e);
+}
+
+.charcounter {
+    float: right;
+    margin-right: 20%;
+    opacity: 0.4;
+}
+
+.commenthr {
+    width: 72%;
+    opacity: 0.3;
+}
+
+.comments {
+    margin-left: 14%;
+    margin-right: 13%;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Georgia", Serif;
+    opacity: 0.7;
+}
+
+.nextpage {
+    color: #aeca94;
+}
+
+.previuspage {
+    margin-left: 15%;
+    color: #aeca94;
+}
+.image-upload > input
+{
+    display: none;
+}
+#pokazalonaiduci{font-size:22px; display:none}
+
+@media screen and (max-width: 1024px) {
+    .main-profile-div {
+        width: 100%;
+        position: absolute;
+        margin-top: 5%;
+        background-color: white;
+        border: 1px solid transparent;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: -1px 1px 20px 1px #888888;
+        overflow: auto;
+        margin-left: -1px;
+        padding-right: 1px;
+    }
+    .placholder-photo {
+        height: 290px;
+    }
+    .newpost{font-size: 22px}
+}
+
+@media screen and (min-width: 1024px) {
+    .main-profile-div {
+        width: 768px;
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 30%;
+        background-color: white;
+        border: 1px solid transparent;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: -1px 1px 20px 1px #888888;
+        margin-bottom: 3%;
+    }
+    .newpost{font-size: 13px}
+    .placholder-photo {
+        height: 260px;
+    }
+}
