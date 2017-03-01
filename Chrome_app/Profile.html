@@ -1,0 +1,46 @@
+<!Doctype Html>
+<html style="overflow-y: visible">
+<head>
+
+
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <script src="project.js"></script>
+</head>
+<body class="Profile-body" >
+<div class="main-profile-div">
+    <div class="placholder-photo" id="slikaplaceholder">
+        <div class="image-upload">
+            <label for="file-input1">
+                <img class="edit-icon" src="images/Olovka.png">
+            </label>
+            <input id="file-input1" type="file"/>
+        </div>
+
+        <div id="slika2" class="profile-photo">
+            <div class="image-upload">
+                <label for="file-input2">
+                    <img class="edit-icon2" src="images/Olovka.png">
+                </label>
+                <input id="file-input2" type="file"/>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <h1 class="profileh1" id="ime" align="center">John Doe</h1>
+    <p class="profilep" id="email" align="center">john.doe@mail.com</p>
+    <br><textarea class="newpost" type="text" id="poruka" id="promjenabroja1" placeholder="Your message" name="name"
+                  cols="40" rows="5" rows="10" cols="70" maxlength="500"></textarea>
+
+    <button class="submitbtn" type="button" id="append1" clas="BtnLogin">SUBMIT</button>
+    <p class="charcounter" id="brojac">500 characters left</p>
+    <p id="comments"></p>
+
+
+    <p class="nextpage" id="pokazalonaiduci" align="center"> All messages &#10141</p>
+    <br>
+    <br>
+</div>
+</body>
+</html>
+
